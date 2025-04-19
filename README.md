@@ -1,20 +1,25 @@
 # Clustering_4
 Clustering Analysis on Seeds Dataset
+
 This project explores clustering techniques on the Seeds dataset using various preprocessing methods. We evaluate the performance of K-Means, Hierarchical Clustering, and KMeans Shift, alongside different levels of data preprocessing such as normalization, transformation, and PCA.
 
 Google Colab file:
 https://colab.research.google.com/drive/1PU35MGBgdsSpNMea5wuzgC0HV0UE4Oh2?usp=sharing
 
 Open in Google Colab
+
 📊 Dataset
+
 Name: Seeds Dataset
 Source: UCI Machine Learning Repository
 The dataset consists of measurements of geometrical properties of kernels belonging to three different varieties of wheat.
 
 🧪 Clustering Techniques
+
 The following clustering algorithms were applied:
 
 K-Means Clustering
+
 Hierarchical Clustering
 KMeans Shift Clustering
 ⚙️ Preprocessing Approaches
@@ -25,6 +30,7 @@ Normalization Only
 Transformation + Normalization (T+N)
 Transformation + Normalization + PCA (T+N+PCA)
 🏆 Results
+
 Criterion	Best Result
 Best Clustering Algorithm	K-Means (with T+N+PCA)
 Best Number of Clusters	3
@@ -32,9 +38,11 @@ Best Silhouette Score	~0.32 (K-Means with T+N+PCA)
 K-Means performed consistently well across all preprocessing combinations. Using all three steps — transformation, normalization, and PCA — led to the highest silhouette score, indicating well-formed clusters.
 
 📈 Visualizations
+
 The clustering results were visualized using 2D projections post-PCA to demonstrate the separation between clusters across different techniques and preprocessing steps.
 
 🧠 Conclusion
+
 K-Means clustering proved to be the most reliable and effective algorithm, especially when used with full preprocessing (T+N+PCA).
 Hierarchical Clustering improved with normalization but did not outperform K-Means.
 KMeans Shift worked decently without preprocessing but had higher computational costs.
@@ -42,8 +50,11 @@ Optimal clustering was achieved with 3 clusters, matching the expected number of
 Silhouette analysis confirmed the quality of clustering, with the best score achieved using K-Means after full preprocessing.
 
 📄 PDF Report
+
 A full breakdown of results and metrics is available in the PDF report.
 
 👤 Author
+
 Sarabjeet Singh
+
 3CO26
