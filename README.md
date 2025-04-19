@@ -36,6 +36,7 @@ Hierarchical Clustering improved with normalization but did not outperform K-Mea
 KMeans Shift worked decently without preprocessing but had higher computational costs.
 Optimal clustering was achieved with 3 clusters, matching the expected number of seed types in the dataset.
 Silhouette analysis confirmed the quality of clustering, with the best score achieved using K-Means after full preprocessing.
+
 📄 PDF Report
 A full breakdown of results and metrics is available in the PDF report.
 
